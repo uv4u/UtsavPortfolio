@@ -1,0 +1,78 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+ /* background: linear-gradient(to right, #bdc3c7, #2c3e50); */
+ /* background: linear-gradient(to right, #5f2c82, #49a09d); */
+ background: linear-gradient(to right, #000000, #434343);
+  color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.css-hhdjsd-MuiContainer-root{
+  max-width: none !important;
+}
+
+
+.typewriting{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: calc(100vh - 64px);
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.about-me-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.about-me{
+  max-width: 60%;
+  font-size: 18px;
+  min-height: calc(100vh - 250px);
+}
+
+.interests-cards{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 3rem;
+  opacity: 0;
+  transition: opacity 5s ease-in-out;
+}
+.interests-cards.fade-in {
+  opacity: 1;
+}
+
+.interests-cards.fade-out {
+  opacity: 0;
+}
+
+.css-nmluci-MuiFormLabel-root-MuiInputLabel-root{
+  color: white !important;
+}
+.css-18pjc51-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+  color: white !important;
+}
+.css-r5in8e-MuiInputBase-root-MuiInput-root{
+  color:grey !important;
+}
+.css-9yqzd6-MuiInputBase-root-MuiOutlinedInput-root{
+  color:grey !important;
+}
